@@ -16,7 +16,7 @@ def convert_to_24_hour(hour, minute, period):
     return time_24_hour
 
 # Test cases
-print(convert_to_24_hour(8, 30, "am"))  # Output: "0830"
-print(convert_to_24_hour(8, 30, "pm"))  # Output: "2030"
-print(convert_to_24_hour(12, 15, "am")) # Output: "0015"
-print(convert_to_24_hour(12, 15, "pm")) # Output: "1215"
+print(convert_to_24_hour(8, 30, "am"))  
+print(convert_to_24_hour(8, 30, "pm"))  
+print(convert_to_24_hour(12, 15, "am")) 
+print(convert_to_24_hour(12, 15, "pm")) 
